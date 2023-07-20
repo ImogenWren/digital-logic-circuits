@@ -1,2 +1,19 @@
-# labview-logic-gates
+# labview learning about logic gates
+
+
+## Sequential Logic - Decade Down Counter
+_This program demonstraits a 4 bit, decade down counter from 9 to 0. Looping_
+
+![image](https://github.com/ImogenWren/logic-gate-learning/assets/97303986/5c9aeafa-d055-47d8-b429-1586dd7cd9e3)
+
+
+ ## Combinational Logic - 7 Segment Display
+ _This program demonstraits a 4 bit input to 7 segment display logic circuit._
+ ![image](https://github.com/ImogenWren/logic-gate-learning/assets/97303986/edcdb5a7-a74d-4933-ba4d-a022ebf6bd1b)
+
+![image](https://github.com/ImogenWren/logic-gate-learning/assets/97303986/3ac0077f-0fd8-495a-b55e-9c8cf8bdcbb4)
+
  
+![image](https://github.com/ImogenWren/logic-gate-learning/assets/97303986/cf0d519b-61e8-43ad-9362-c8a031df816b)
+
+![image](https://github.com/ImogenWren/logic-gate-learning/assets/97303986/33d8b743-b1f5-4e05-9903-4affe22da33d)

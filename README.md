@@ -24,3 +24,14 @@ This is the circuit, built onto a breadboard.
 ![image](https://github.com/ImogenWren/logic-gate-learning/assets/97303986/cf0d519b-61e8-43ad-9362-c8a031df816b)
 
 ![image](https://github.com/ImogenWren/logic-gate-learning/assets/97303986/33d8b743-b1f5-4e05-9903-4affe22da33d)
+
+
+### KiCAD Schematics
+_These are almost the same as the labview implementation, it shows how well LabVIEW can model and mimic digital circuits!_
+## Sequential Circuit
+![image](https://github.com/ImogenWren/digital-logic-circuits/assets/97303986/7d9a16a0-b1dc-43d8-8879-8d24f6983fc9)
+## Combinational Circuit
+![image](https://github.com/ImogenWren/digital-logic-circuits/assets/97303986/761c1efc-79e0-471a-b904-c1698457ec35)
+
+
+#### Bread & Proto Board Layouts

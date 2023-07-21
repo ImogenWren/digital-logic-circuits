@@ -11,14 +11,14 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="7-segment-down-counter" Type="Folder">
-			<Item Name="!4-bit-cont.ctl" Type="VI" URL="../!4-bit-cont.ctl"/>
+			<Item Name="!4-bit-cont.ctl" Type="VI" URL="../controls/!4-bit-cont.ctl"/>
 			<Item Name="4-bit-disp.ctl" Type="VI" URL="../4-bit-disp.ctl"/>
 			<Item Name="7-segment-display.ctl" Type="VI" URL="../7-segment-display.ctl"/>
-			<Item Name="combinational-logic-7-segment.vi" Type="VI" URL="../combinational-logic-7-segment.vi"/>
-			<Item Name="D0-latch.vi" Type="VI" URL="../D0-latch.vi"/>
-			<Item Name="D1-latch.vi" Type="VI" URL="../D1-latch.vi"/>
-			<Item Name="D2-latch.vi" Type="VI" URL="../D2-latch.vi"/>
-			<Item Name="D3-latch.vi" Type="VI" URL="../D3-latch.vi"/>
+			<Item Name="combinational-logic-7-segment.vi" Type="VI" URL="../sub-vi/combinational-logic-7-segment.vi"/>
+			<Item Name="D0-latch.vi" Type="VI" URL="../sub-vi/D0-latch.vi"/>
+			<Item Name="D1-latch.vi" Type="VI" URL="../sub-vi/D1-latch.vi"/>
+			<Item Name="D2-latch.vi" Type="VI" URL="../sub-vi/D2-latch.vi"/>
+			<Item Name="D3-latch.vi" Type="VI" URL="../sub-vi/D3-latch.vi"/>
 		</Item>
 		<Item Name="old-vi" Type="Folder">
 			<Item Name="bcd-decade-counter.vi" Type="VI" URL="../bcd-decade-counter.vi"/>
@@ -35,7 +35,10 @@
 			<Item Name="t-flip-flop.vi" Type="VI" URL="../t-flip-flop.vi"/>
 		</Item>
 		<Item Name="decade-down-counter.vi" Type="VI" URL="../decade-down-counter.vi"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="4-bit-disp.ctl" Type="VI" URL="../controls/4-bit-disp.ctl"/>
+			<Item Name="7-segment-display.ctl" Type="VI" URL="../controls/7-segment-display.ctl"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>

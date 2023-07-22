@@ -35,3 +35,5 @@ _These are almost the same as the labview implementation, it shows how well LabV
 
 
 #### Bread & Proto Board Layouts
+##### 4-Bit to 7-Segment Display
+![Uploading image.png…]()

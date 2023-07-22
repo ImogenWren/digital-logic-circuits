@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project>
+  <fileVersion>
+    <major>4</major>
+    <minor>36</minor>
+    <build>0</build>
+  </fileVersion>
+  <title>New Project</title>
+  <author>dech3</author>
+  <width value="29.0" unit="cm"/>
+  <height value="21.0" unit="cm"/>
+  <gridSpacing value="0.1" unit="in"/>
+  <dotSpacing>1</dotSpacing>
+  <components>
+    <diylc.boards.VeroBoard>
+      <name>Board1</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.4" y="2.5"/>
+        <point x="3.2" y="6.5"/>
+      </controlPoints>
+      <firstPoint x="3.2" y="2.5"/>
+      <secondPoint x="6.4" y="6.5"/>
+      <boardColor hex="f8ebb3"/>
+      <borderColor hex="ada47d"/>
+      <coordinateColor hex="b6b6b6"/>
+      <xType>Numbers</xType>
+      <coordinateOrigin>Top_Right</coordinateOrigin>
+      <coordinateDisplay>One_Side</coordinateDisplay>
+      <yType>Letters</yType>
+      <mode>TwoPoints</mode>
+      <spacing value="0.1" unit="in"/>
+      <stripColor hex="da8a67"/>
+      <orientation>VERTICAL</orientation>
+    </diylc.boards.VeroBoard>
+    <diylc.connectivity.Jumper>
+      <name>J1</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="4.1" y="1.9"/>
+        <point x="4.1" y="2.8"/>
+        <point x="4.1" y="2.35"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="990000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.connectivity.Jumper>
+      <name>J2</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="4.3" y="1.9"/>
+        <point x="4.3" y="2.8"/>
+        <point x="4.3" y="2.35"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="ff0033"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.connectivity.Turret>
+      <name>Turret1</name>
+      <size value="2.5" unit="mm"/>
+      <holeSize value="0.0625" unit="in"/>
+      <color hex="996600"/>
+      <point x="3.4" y="2.7"/>
+      <value></value>
+    </diylc.connectivity.Turret>
+    <diylc.connectivity.Turret>
+      <name>Turret2</name>
+      <size value="2.5" unit="mm"/>
+      <holeSize value="0.0625" unit="in"/>
+      <color hex="996600"/>
+      <point x="6.2" y="2.7"/>
+      <value></value>
+    </diylc.connectivity.Turret>
+    <diylc.connectivity.Turret>
+      <name>Turret3</name>
+      <size value="2.5" unit="mm"/>
+      <holeSize value="0.0625" unit="in"/>
+      <color hex="996600"/>
+      <point x="6.2" y="6.3"/>
+      <value></value>
+    </diylc.connectivity.Turret>
+    <diylc.connectivity.Turret>
+      <name>Turret4</name>
+      <size value="2.5" unit="mm"/>
+      <holeSize value="0.0625" unit="in"/>
+      <color hex="996600"/>
+      <point x="3.4" y="6.3"/>
+      <value></value>
+    </diylc.connectivity.Turret>
+    <diylc.misc.Label>
+      <name>LAB1</name>
+      <point x="4.0" y="2.4"/>
+      <text>A</text>
+      <font name="Consolas Bold" size="14" style="1"/>
+      <color hex="ffffff"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>_270</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB2</name>
+      <point x="3.6" y="2.4"/>
+      <text>!A</text>
+      <font name="Consolas Bold" size="14" style="1"/>
+      <color hex="ffffff"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>_270</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB3</name>
+      <point x="3.5" y="2.4"/>
+      <text>!B</text>
+      <font name="Consolas Bold" size="14" style="1"/>
+      <color hex="ffffff"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>_270</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB4</name>
+      <point x="3.4" y="2.4"/>
+      <text>!C</text>
+      <font name="Consolas Bold" size="14" style="1"/>
+      <color hex="ffffff"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>_270</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB5</name>
+      <point x="3.3" y="2.4"/>
+      <text>!D</text>
+      <font name="Consolas Bold" size="14" style="1"/>
+      <color hex="ffffff"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>_270</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB6</name>
+      <point x="3.9" y="2.4"/>
+      <text>B</text>
+      <font name="Consolas Bold" size="14" style="1"/>
+      <color hex="ffffff"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>_270</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB7</name>
+      <point x="3.8" y="2.4"/>
+      <text>C</text>
+      <font name="Consolas Bold" size="14" style="1"/>
+      <color hex="ffffff"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>_270</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB8</name>
+      <point x="3.7" y="2.4"/>
+      <text>D</text>
+      <font name="Consolas Bold" size="14" style="1"/>
+      <color hex="ffffff"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>_270</orientation>
+    </diylc.misc.Label>
+  </components>
+  <groups/>
+  <lockedLayers/>
+  <lockedComponents/>
+  <hiddenLayers/>
+  <font name="Lucida Console" size="14" style="0"/>
+</project>

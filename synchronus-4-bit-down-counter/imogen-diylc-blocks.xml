@@ -1,0 +1,4198 @@
+<org.diylc.common.BuildingBlockPackage>
+  <block>
+    <entry>
+      <string>semis</string>
+      <set>
+        <diylc.semiconductors.DiodeGlass>
+          <name>D1</name>
+          <alpha>127</alpha>
+          <length value="0.2" unit="in"/>
+          <width value="0.09" unit="in"/>
+          <points>
+            <point x="7.1" y="6.2"/>
+            <point x="6.4" y="6.9"/>
+          </points>
+          <bodyColor hex="e1f0ff"/>
+          <borderColor hex="808080"/>
+          <labelColor hex="ffffff"/>
+          <leadColor hex="cccccc"/>
+          <display>NAME</display>
+          <flipStanding>false</flipStanding>
+          <moveLabel>false</moveLabel>
+          <value></value>
+          <markerColor hex="808080"/>
+          <insideColor hex="e66e31"/>
+        </diylc.semiconductors.DiodeGlass>
+        <diylc.semiconductors.TransistorTO92>
+          <name>Q1</name>
+          <alpha>127</alpha>
+          <value></value>
+          <orientation>DEFAULT</orientation>
+          <controlPoints>
+            <point x="6.5" y="6.5"/>
+            <point x="6.5" y="6.55"/>
+            <point x="6.5" y="6.6"/>
+          </controlPoints>
+          <bodyColor hex="808080"/>
+          <borderColor hex="595959"/>
+          <labelColor hex="ffffff"/>
+          <display>NAME</display>
+          <folded>false</folded>
+          <pinSpacing value="0.05" unit="in"/>
+        </diylc.semiconductors.TransistorTO92>
+        <diylc.semiconductors.TransistorTO92>
+          <name>Q2</name>
+          <alpha>127</alpha>
+          <value></value>
+          <orientation>DEFAULT</orientation>
+          <controlPoints>
+            <point x="6.8" y="6.7"/>
+            <point x="6.8" y="6.75"/>
+            <point x="6.8" y="6.8"/>
+          </controlPoints>
+          <bodyColor hex="808080"/>
+          <borderColor hex="595959"/>
+          <labelColor hex="ffffff"/>
+          <display>NAME</display>
+          <folded>false</folded>
+          <pinSpacing value="0.05" unit="in"/>
+        </diylc.semiconductors.TransistorTO92>
+        <diylc.semiconductors.TransistorTO220>
+          <name>Q3</name>
+          <alpha>127</alpha>
+          <value></value>
+          <orientation>DEFAULT</orientation>
+          <controlPoints>
+            <point x="6.7" y="6.1"/>
+            <point x="6.7" y="6.2"/>
+            <point x="6.7" y="6.3"/>
+          </controlPoints>
+          <bodyColor hex="808080"/>
+          <borderColor hex="595959"/>
+          <display>NAME</display>
+          <folded>false</folded>
+          <tabColor hex="c0c0c0"/>
+          <tabBorderColor hex="868686"/>
+          <leadLength value="3.5" unit="mm"/>
+        </diylc.semiconductors.TransistorTO220>
+      </set>
+    </entry>
+    <entry>
+      <string>8 Way Header</string>
+      <list>
+        <diylc.shapes.Rectangle>
+          <name>RECT19</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="11.7" y="4.1"/>
+            <point x="11.9" y="5.0"/>
+          </controlPoints>
+          <firstPoint x="11.7" y="4.1"/>
+          <secondPoint x="11.9" y="5.0"/>
+          <color hex="333333"/>
+          <borderColor hex="ff00ff"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.connectivity.SolderPad>
+          <name>Pad71</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="11.8" y="4.2"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad72</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="11.8" y="4.3"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad73</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="11.8" y="4.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad74</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="11.8" y="4.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad75</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="11.8" y="4.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad76</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="11.8" y="4.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad77</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="11.8" y="4.8"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad78</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="11.8" y="4.9"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+      </list>
+    </entry>
+    <entry>
+      <string>IRF740</string>
+      <set>
+        <diylc.misc.Label>
+          <name>L2</name>
+          <point x="4.4" y="3.3"/>
+          <text>D</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L2</name>
+          <point x="4.4" y="3.4"/>
+          <text>G</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.semiconductors.TransistorTO220>
+          <name>Q1</name>
+          <alpha>78</alpha>
+          <value></value>
+          <orientation>_180</orientation>
+          <controlPoints>
+            <point x="4.5" y="3.4"/>
+            <point x="4.5" y="3.3"/>
+            <point x="4.5" y="3.2"/>
+          </controlPoints>
+          <bodyColor hex="808080"/>
+          <borderColor hex="595959"/>
+          <display>NAME</display>
+          <folded>false</folded>
+          <tabColor hex="c0c0c0"/>
+          <tabBorderColor hex="868686"/>
+          <leadLength value="3.5" unit="mm"/>
+        </diylc.semiconductors.TransistorTO220>
+        <diylc.misc.Label>
+          <name>L2</name>
+          <point x="4.4" y="3.2"/>
+          <text>S</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+      </set>
+    </entry>
+    <entry>
+      <string>TO-92 w/ 3 Leads</string>
+      <list>
+        <diylc.connectivity.Jumper>
+          <name>J1</name>
+          <alpha>127</alpha>
+          <points>
+            <point x="3.6" y="3.1"/>
+            <point x="3.8" y="3.2"/>
+            <point x="3.25" y="-0.205"/>
+          </points>
+          <bodyColor hex="ffffff"/>
+          <borderColor hex="000000"/>
+          <labelColor hex="000000"/>
+          <leadColor hex="759daf"/>
+          <display>NAME</display>
+          <flipStanding>false</flipStanding>
+          <labelOriantation>Directional</labelOriantation>
+          <moveLabel>false</moveLabel>
+          <style>SOLID</style>
+        </diylc.connectivity.Jumper>
+        <diylc.connectivity.Jumper>
+          <name>J2</name>
+          <alpha>127</alpha>
+          <points>
+            <point x="3.6" y="3.4"/>
+            <point x="3.8" y="3.3"/>
+            <point x="-1.03" y="0.475"/>
+          </points>
+          <bodyColor hex="ffffff"/>
+          <borderColor hex="000000"/>
+          <labelColor hex="000000"/>
+          <leadColor hex="759daf"/>
+          <display>NAME</display>
+          <flipStanding>false</flipStanding>
+          <labelOriantation>Directional</labelOriantation>
+          <moveLabel>false</moveLabel>
+          <style>SOLID</style>
+        </diylc.connectivity.Jumper>
+        <diylc.connectivity.Jumper>
+          <name>J3</name>
+          <alpha>127</alpha>
+          <points>
+            <point x="3.595" y="3.25"/>
+            <point x="3.8" y="3.25"/>
+            <point x="0.735" y="-1.395"/>
+          </points>
+          <bodyColor hex="ffffff"/>
+          <borderColor hex="000000"/>
+          <labelColor hex="000000"/>
+          <leadColor hex="759daf"/>
+          <display>NAME</display>
+          <flipStanding>false</flipStanding>
+          <labelOriantation>Directional</labelOriantation>
+          <moveLabel>false</moveLabel>
+          <style>SOLID</style>
+        </diylc.connectivity.Jumper>
+        <diylc.semiconductors.TransistorTO92>
+          <name>Q1</name>
+          <alpha>100</alpha>
+          <value></value>
+          <orientation>DEFAULT</orientation>
+          <controlPoints>
+            <point x="3.8" y="3.2"/>
+            <point x="3.8" y="3.25"/>
+            <point x="3.8" y="3.3"/>
+          </controlPoints>
+          <bodyColor hex="808080"/>
+          <borderColor hex="595959"/>
+          <labelColor hex="000000"/>
+          <display>NAME</display>
+          <folded>false</folded>
+          <pinSpacing value="0.05" unit="in"/>
+        </diylc.semiconductors.TransistorTO92>
+      </list>
+    </entry>
+    <entry>
+      <string>test</string>
+      <set>
+        <diylc.electromechanical.MiniToggleSwitch>
+          <alpha>127</alpha>
+          <controlPoints>
+            <point x="6.1" y="3.8"/>
+            <point x="6.1" y="4.0"/>
+            <point x="6.1" y="4.2"/>
+            <point x="6.3" y="3.8"/>
+            <point x="6.3" y="4.0"/>
+            <point x="6.3" y="4.2"/>
+          </controlPoints>
+          <switchType>DPDT</switchType>
+          <orientation>VERTICAL</orientation>
+          <spacing value="0.2" unit="in"/>
+          <name>SW1</name>
+        </diylc.electromechanical.MiniToggleSwitch>
+        <diylc.electromechanical.ClosedJack1__4>
+          <name>J1</name>
+          <alpha>127</alpha>
+          <controlPoints>
+            <point x="6.6" y="3.9"/>
+            <point x="7.4" y="3.9"/>
+          </controlPoints>
+          <type>MONO</type>
+          <orientation>DEFAULT</orientation>
+        </diylc.electromechanical.ClosedJack1__4>
+      </set>
+    </entry>
+    <entry>
+      <string>4-way-screw-terminal</string>
+      <list>
+        <diylc.connectivity.SolderPad>
+          <name>Pad5</name>
+          <size value="0.09" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="1.2" y="7.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad7</name>
+          <size value="0.09" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="1.4" y="7.7"/>
+          <type>ROUND</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad8</name>
+          <size value="0.09" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="1.6" y="7.7"/>
+          <type>ROUND</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad10</name>
+          <size value="0.09" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="1.8" y="7.7"/>
+          <type>ROUND</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.shapes.Rectangle>
+          <name>RECT2</name>
+          <alpha>76</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="1.1" y="7.5"/>
+            <point x="1.9" y="7.9"/>
+          </controlPoints>
+          <firstPoint x="1.1" y="7.5"/>
+          <secondPoint x="1.9" y="7.9"/>
+          <color hex="66cc00"/>
+          <borderColor hex="000000"/>
+          <borderThickness value="0.4" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+      </list>
+    </entry>
+    <entry>
+      <string>Dual 10 Way Header</string>
+      <list>
+        <diylc.shapes.Rectangle>
+          <name>RECT15</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="14.6" y="4.6"/>
+            <point x="15.7" y="4.3"/>
+          </controlPoints>
+          <firstPoint x="14.6" y="4.3"/>
+          <secondPoint x="15.7" y="4.6"/>
+          <color hex="333333"/>
+          <borderColor hex="ff00ff"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.connectivity.SolderPad>
+          <name>Pad25</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.4" y="4.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad26</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.3" y="4.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad27</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.2" y="4.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad28</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.1" y="4.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad29</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.0" y="4.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad30</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.9" y="4.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad31</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.8" y="4.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad32</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.7" y="4.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad33</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.7" y="4.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad34</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.8" y="4.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad35</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.9" y="4.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad36</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.0" y="4.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad37</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.1" y="4.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad38</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.2" y="4.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad39</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.3" y="4.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad51</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.4" y="4.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad40</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.5" y="4.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad52</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.5" y="4.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad53</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.6" y="4.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad54</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.6" y="4.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+      </list>
+    </entry>
+    <entry>
+      <string>Header Pins</string>
+      <list>
+        <diylc.shapes.Rectangle>
+          <name>RECT12</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="13.6" y="0.8"/>
+            <point x="13.8" y="1.7"/>
+          </controlPoints>
+          <firstPoint x="13.6" y="0.8"/>
+          <secondPoint x="13.8" y="1.7"/>
+          <color hex="333333"/>
+          <borderColor hex="ff00ff"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.connectivity.SolderPad>
+          <name>Pad1</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="0.9"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad2</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="1.0"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad3</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="1.1"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad4</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="1.2"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad5</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="1.3"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad6</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="1.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad7</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="1.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad8</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="1.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+      </list>
+    </entry>
+    <entry>
+      <string>Arduino Mega</string>
+      <list>
+        <diylc.shapes.Rectangle>
+          <name>RECT8</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="13.6" y="0.3"/>
+            <point x="15.9" y="5.4"/>
+          </controlPoints>
+          <firstPoint x="13.6" y="0.3"/>
+          <secondPoint x="15.9" y="5.4"/>
+          <color hex="3366ff"/>
+          <borderColor hex="ffff00"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.shapes.Rectangle>
+          <name>RECT22</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="14.9" y="2.3"/>
+            <point x="15.1" y="3.8"/>
+          </controlPoints>
+          <firstPoint x="14.9" y="2.3"/>
+          <secondPoint x="15.1" y="3.8"/>
+          <color hex="ffffff"/>
+          <borderColor hex="000000"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.shapes.Rectangle>
+          <name>RECT16</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="13.7" y="4.7"/>
+            <point x="15.8" y="5.3"/>
+          </controlPoints>
+          <firstPoint x="13.7" y="4.7"/>
+          <secondPoint x="15.8" y="5.3"/>
+          <color hex="ffffff"/>
+          <borderColor hex="000000"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.shapes.Rectangle>
+          <name>RECT9</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="13.7" y="0.8"/>
+            <point x="14.3" y="3.8"/>
+          </controlPoints>
+          <firstPoint x="13.7" y="0.8"/>
+          <secondPoint x="14.3" y="3.8"/>
+          <color hex="ffffff"/>
+          <borderColor hex="000000"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.shapes.Rectangle>
+          <name>RECT10</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="13.7" y="4.0"/>
+            <point x="15.8" y="4.6"/>
+          </controlPoints>
+          <firstPoint x="13.7" y="4.0"/>
+          <secondPoint x="15.8" y="4.6"/>
+          <color hex="ffffff"/>
+          <borderColor hex="000000"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.shapes.Rectangle>
+          <name>RECT11</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="15.1" y="0.4"/>
+            <point x="15.7" y="3.8"/>
+          </controlPoints>
+          <firstPoint x="15.1" y="0.4"/>
+          <secondPoint x="15.7" y="3.8"/>
+          <color hex="ffffff"/>
+          <borderColor hex="000000"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.shapes.Rectangle>
+          <name>RECT12</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="13.6" y="0.8"/>
+            <point x="13.8" y="1.7"/>
+          </controlPoints>
+          <firstPoint x="13.6" y="0.8"/>
+          <secondPoint x="13.8" y="1.7"/>
+          <color hex="333333"/>
+          <borderColor hex="ff00ff"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.connectivity.SolderPad>
+          <name>Pad1</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="0.9"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad2</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="1.0"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad3</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="1.1"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad4</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="1.2"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad5</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="1.3"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad6</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="1.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad7</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="1.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad8</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="1.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.shapes.Rectangle>
+          <name>RECT13</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="13.6" y="1.8"/>
+            <point x="13.8" y="2.7"/>
+          </controlPoints>
+          <firstPoint x="13.6" y="1.8"/>
+          <secondPoint x="13.8" y="2.7"/>
+          <color hex="333333"/>
+          <borderColor hex="ff00ff"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.connectivity.SolderPad>
+          <name>Pad9</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="1.9"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad10</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="2.0"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad11</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="2.1"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad12</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="2.2"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad13</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="2.3"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad14</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="2.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad15</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="2.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad16</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="2.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.shapes.Rectangle>
+          <name>RECT14</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="13.6" y="2.8"/>
+            <point x="13.8" y="3.7"/>
+          </controlPoints>
+          <firstPoint x="13.6" y="2.8"/>
+          <secondPoint x="13.8" y="3.7"/>
+          <color hex="333333"/>
+          <borderColor hex="ff00ff"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.connectivity.SolderPad>
+          <name>Pad17</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="2.9"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad18</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="3.0"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad19</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="3.1"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad20</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="3.2"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad21</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="3.3"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad22</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="3.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad23</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="3.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad24</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.7" y="3.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.shapes.Rectangle>
+          <name>RECT15</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="14.6" y="4.8"/>
+            <point x="15.7" y="4.5"/>
+          </controlPoints>
+          <firstPoint x="14.6" y="4.5"/>
+          <secondPoint x="15.7" y="4.8"/>
+          <color hex="333333"/>
+          <borderColor hex="ff00ff"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.connectivity.SolderPad>
+          <name>Pad25</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.4" y="4.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad26</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.3" y="4.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad27</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.2" y="4.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad28</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.1" y="4.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad29</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.0" y="4.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad30</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.9" y="4.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad31</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.8" y="4.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad32</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.7" y="4.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.shapes.Rectangle>
+          <name>RECT18</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="15.6" y="0.6"/>
+            <point x="15.8" y="1.7"/>
+          </controlPoints>
+          <firstPoint x="15.6" y="0.6"/>
+          <secondPoint x="15.8" y="1.7"/>
+          <color hex="333333"/>
+          <borderColor hex="ff00ff"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.connectivity.SolderPad>
+          <name>Pad41</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="0.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad42</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="0.8"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad43</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="0.9"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad44</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="1.0"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad45</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="1.1"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad46</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="1.2"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad47</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="1.3"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad48</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="1.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad49</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="1.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad50</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="1.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad33</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.7" y="4.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad34</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.8" y="4.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad35</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.9" y="4.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad36</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.0" y="4.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad37</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.1" y="4.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad38</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.2" y="4.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad39</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.3" y="4.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad51</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.4" y="4.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad40</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.5" y="4.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad52</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.5" y="4.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad53</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.6" y="4.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad54</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.6" y="4.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.shapes.Rectangle>
+          <name>RECT17</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="13.7" y="4.8"/>
+            <point x="14.6" y="4.5"/>
+          </controlPoints>
+          <firstPoint x="13.7" y="4.5"/>
+          <secondPoint x="14.6" y="4.8"/>
+          <color hex="333333"/>
+          <borderColor hex="ff00ff"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.connectivity.SolderPad>
+          <name>Pad55</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.5" y="4.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad56</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.4" y="4.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad57</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.3" y="4.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad58</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.2" y="4.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad59</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.1" y="4.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad60</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.0" y="4.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad61</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.9" y="4.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad62</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.8" y="4.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad63</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.8" y="4.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad64</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.9" y="4.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad65</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.0" y="4.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad66</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.1" y="4.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad67</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.2" y="4.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad68</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.3" y="4.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad69</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.4" y="4.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad70</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.5" y="4.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.shapes.Rectangle>
+          <name>RECT19</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="15.6" y="1.7"/>
+            <point x="15.8" y="2.6"/>
+          </controlPoints>
+          <firstPoint x="15.6" y="1.7"/>
+          <secondPoint x="15.8" y="2.6"/>
+          <color hex="333333"/>
+          <borderColor hex="ff00ff"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.connectivity.SolderPad>
+          <name>Pad71</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="1.8"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad72</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="1.9"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad73</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="2.0"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad74</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="2.1"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad75</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="2.2"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad76</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="2.3"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad77</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="2.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad78</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="2.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.shapes.Rectangle>
+          <name>RECT20</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="15.6" y="2.7"/>
+            <point x="15.8" y="3.6"/>
+          </controlPoints>
+          <firstPoint x="15.6" y="2.7"/>
+          <secondPoint x="15.8" y="3.6"/>
+          <color hex="333333"/>
+          <borderColor hex="ff00ff"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.connectivity.SolderPad>
+          <name>Pad79</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="2.8"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad80</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="2.9"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad81</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="3.0"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad82</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="3.1"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad83</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="3.2"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad84</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="3.3"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad85</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="3.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad86</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="3.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.shapes.Rectangle>
+          <name>RECT21</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="14.4" y="1.6"/>
+            <point x="15.0" y="2.2"/>
+          </controlPoints>
+          <firstPoint x="14.4" y="1.6"/>
+          <secondPoint x="15.0" y="2.2"/>
+          <color hex="333333"/>
+          <borderColor hex="cccccc"/>
+          <borderThickness value="2.0" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.misc.Label>
+          <name>L7</name>
+          <point x="13.9" y="1.6"/>
+          <text>Vin</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L8</name>
+          <point x="13.9" y="1.5"/>
+          <text>GND</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L9</name>
+          <point x="13.9" y="1.4"/>
+          <text>GND</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L10</name>
+          <point x="13.9" y="1.3"/>
+          <text>+5v</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L11</name>
+          <point x="13.9" y="1.2"/>
+          <text>+3.3v</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L12</name>
+          <point x="13.9" y="1.1"/>
+          <text>Reset</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L13</name>
+          <point x="13.9" y="1.0"/>
+          <text>IOref</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L14</name>
+          <point x="13.9" y="1.9"/>
+          <text>A0</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L15</name>
+          <point x="13.9" y="2.0"/>
+          <text>A1</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L16</name>
+          <point x="13.9" y="2.1"/>
+          <text>A2</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L17</name>
+          <point x="13.9" y="2.2"/>
+          <text>A3</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L19</name>
+          <point x="13.9" y="2.3"/>
+          <text>A4</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L20</name>
+          <point x="13.9" y="2.4"/>
+          <text>A5</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L21</name>
+          <point x="13.9" y="2.5"/>
+          <text>A6</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L22</name>
+          <point x="13.9" y="2.6"/>
+          <text>A7</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L23</name>
+          <point x="13.9" y="2.9"/>
+          <text>A8</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L24</name>
+          <point x="13.9" y="3.0"/>
+          <text>A9</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L25</name>
+          <point x="13.9" y="3.1"/>
+          <text>A10</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L26</name>
+          <point x="13.9" y="3.2"/>
+          <text>A11</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L27</name>
+          <point x="13.9" y="3.3"/>
+          <text>A12</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L28</name>
+          <point x="13.9" y="3.4"/>
+          <text>A13</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L29</name>
+          <point x="13.9" y="3.5"/>
+          <text>A14</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L30</name>
+          <point x="13.9" y="3.6"/>
+          <text>A15</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L31</name>
+          <point x="15.5" y="1.6"/>
+          <text>8</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L32</name>
+          <point x="15.5" y="0.5"/>
+          <text>DIGITAL</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L33</name>
+          <point x="15.5" y="1.5"/>
+          <text>9</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L34</name>
+          <point x="15.5" y="1.4"/>
+          <text>10</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L35</name>
+          <point x="15.5" y="1.3"/>
+          <text>11</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L36</name>
+          <point x="15.5" y="1.2"/>
+          <text>12</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L37</name>
+          <point x="15.5" y="1.1"/>
+          <text>13</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L39</name>
+          <point x="15.5" y="1.0"/>
+          <text>GND</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L40</name>
+          <point x="15.5" y="0.9"/>
+          <text>Aref</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L41</name>
+          <point x="15.5" y="1.8"/>
+          <text>7</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L42</name>
+          <point x="15.5" y="1.9"/>
+          <text>6</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L43</name>
+          <point x="15.5" y="2.0"/>
+          <text>5</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L45</name>
+          <point x="15.5" y="2.1"/>
+          <text>4</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L46</name>
+          <point x="15.5" y="2.2"/>
+          <text>3</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L47</name>
+          <point x="15.5" y="2.3"/>
+          <text>2</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L48</name>
+          <point x="15.5" y="2.4"/>
+          <text>1</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L49</name>
+          <point x="15.5" y="2.5"/>
+          <text>0</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L50</name>
+          <point x="15.5" y="2.8"/>
+          <text>14</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L51</name>
+          <point x="15.5" y="2.9"/>
+          <text>15</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L52</name>
+          <point x="15.5" y="3.0"/>
+          <text>16</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L53</name>
+          <point x="15.5" y="3.1"/>
+          <text>17</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L54</name>
+          <point x="15.5" y="3.3"/>
+          <text>19</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L55</name>
+          <point x="15.5" y="3.2"/>
+          <text>18</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L56</name>
+          <point x="15.5" y="3.4"/>
+          <text>20</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L57</name>
+          <point x="15.5" y="3.5"/>
+          <text>21</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L58</name>
+          <point x="15.4" y="2.5"/>
+          <text>RX  0</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L59</name>
+          <point x="15.4" y="2.4"/>
+          <text>TX  0</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L60</name>
+          <point x="15.0" y="3.0"/>
+          <text>COMMUNICATION</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L61</name>
+          <point x="15.3" y="2.8"/>
+          <text>TX  3</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L62</name>
+          <point x="15.3" y="2.9"/>
+          <text>RX 3</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L63</name>
+          <point x="15.3" y="3.0"/>
+          <text>TX 2</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L64</name>
+          <point x="15.3" y="3.1"/>
+          <text>RX  2</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L65</name>
+          <point x="15.3" y="3.2"/>
+          <text>TX  1</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L66</name>
+          <point x="15.3" y="3.3"/>
+          <text>RX  1</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L67</name>
+          <point x="15.3" y="3.4"/>
+          <text>SDA</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L68</name>
+          <point x="15.3" y="3.5"/>
+          <text>SCL</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L69</name>
+          <point x="15.6" y="4.4"/>
+          <text>+5v</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L70</name>
+          <point x="15.6" y="4.9"/>
+          <text>+5v</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L71</name>
+          <point x="13.8" y="4.9"/>
+          <text>GND</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L72</name>
+          <point x="13.8" y="4.4"/>
+          <text>GND</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L73</name>
+          <point x="15.5" y="4.4"/>
+          <text>22</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L74</name>
+          <point x="15.4" y="4.4"/>
+          <text>24</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L75</name>
+          <point x="15.3" y="4.4"/>
+          <text>26</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L76</name>
+          <point x="15.2" y="4.4"/>
+          <text>28</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L77</name>
+          <point x="15.1" y="4.4"/>
+          <text>30</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L78</name>
+          <point x="15.0" y="4.4"/>
+          <text>32</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L79</name>
+          <point x="14.9" y="4.4"/>
+          <text>34</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L80</name>
+          <point x="14.8" y="4.4"/>
+          <text>36</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L81</name>
+          <point x="14.7" y="4.4"/>
+          <text>38</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L82</name>
+          <point x="14.5" y="4.4"/>
+          <text>40</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L83</name>
+          <point x="14.4" y="4.4"/>
+          <text>42</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L84</name>
+          <point x="14.3" y="4.4"/>
+          <text>44</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L86</name>
+          <point x="14.2" y="4.4"/>
+          <text>46</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L87</name>
+          <point x="14.1" y="4.4"/>
+          <text>48</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L88</name>
+          <point x="14.0" y="4.4"/>
+          <text>50</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L89</name>
+          <point x="13.9" y="4.4"/>
+          <text>52</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L90</name>
+          <point x="15.5" y="4.9"/>
+          <text>23</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L91</name>
+          <point x="15.4" y="4.9"/>
+          <text>25</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L92</name>
+          <point x="15.3" y="4.9"/>
+          <text>27</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L93</name>
+          <point x="15.2" y="4.9"/>
+          <text>29</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L94</name>
+          <point x="15.1" y="4.9"/>
+          <text>31</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L95</name>
+          <point x="15.0" y="4.9"/>
+          <text>33</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L96</name>
+          <point x="14.9" y="4.9"/>
+          <text>35</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L97</name>
+          <point x="14.8" y="4.9"/>
+          <text>37</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L98</name>
+          <point x="14.7" y="4.9"/>
+          <text>39</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L99</name>
+          <point x="14.5" y="4.9"/>
+          <text>41</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L100</name>
+          <point x="14.4" y="4.9"/>
+          <text>43</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L101</name>
+          <point x="14.3" y="4.9"/>
+          <text>45</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L102</name>
+          <point x="14.2" y="4.9"/>
+          <text>47</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L103</name>
+          <point x="14.1" y="4.9"/>
+          <text>49</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L104</name>
+          <point x="14.0" y="4.9"/>
+          <text>51</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L105</name>
+          <point x="13.9" y="4.9"/>
+          <text>53</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L85</name>
+          <point x="14.0" y="4.2"/>
+          <text>MISO</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L106</name>
+          <point x="13.9" y="4.2"/>
+          <text>SCK</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L107</name>
+          <point x="14.0" y="5.1"/>
+          <text>MOSI</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L108</name>
+          <point x="13.9" y="5.1"/>
+          <text>CS</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L109</name>
+          <point x="14.3" y="5.1"/>
+          <text>~</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L110</name>
+          <point x="14.3" y="4.2"/>
+          <text>~</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L111</name>
+          <point x="14.2" y="4.2"/>
+          <text>~</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L112</name>
+          <point x="15.4" y="0.7"/>
+          <text>(I2C) SCL</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L113</name>
+          <point x="15.4" y="0.8"/>
+          <text>(I2C) SDA</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L114</name>
+          <point x="15.3" y="1.1"/>
+          <text>~</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L115</name>
+          <point x="15.3" y="1.2"/>
+          <text>~</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L116</name>
+          <point x="15.3" y="1.3"/>
+          <text>~</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L117</name>
+          <point x="15.3" y="1.4"/>
+          <text>~</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L118</name>
+          <point x="15.3" y="1.5"/>
+          <text>~</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L119</name>
+          <point x="15.3" y="1.6"/>
+          <text>~</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L120</name>
+          <point x="15.3" y="1.8"/>
+          <text>~</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L121</name>
+          <point x="15.3" y="1.9"/>
+          <text>~</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L122</name>
+          <point x="15.3" y="2.0"/>
+          <text>~</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L123</name>
+          <point x="15.3" y="2.1"/>
+          <text>~</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L124</name>
+          <point x="15.3" y="2.2"/>
+          <text>~</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L125</name>
+          <point x="15.3" y="2.3"/>
+          <text>~</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L126</name>
+          <point x="14.3" y="0.6"/>
+          <text>MEGA</text>
+          <font name="Bahnschrift" size="46" style="0"/>
+          <color hex="ffffff"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L127</name>
+          <point x="14.5" y="0.4"/>
+          <text>Arduino</text>
+          <font name="Bahnschrift" size="30" style="0"/>
+          <color hex="ffffff"/>
+          <horizontalAlignment>RIGHT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+      </list>
+    </entry>
+    <entry>
+      <string>Dual 8 Way Header</string>
+      <list>
+        <diylc.shapes.Rectangle>
+          <name>RECT17</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="13.7" y="4.6"/>
+            <point x="14.6" y="4.3"/>
+          </controlPoints>
+          <firstPoint x="13.7" y="4.3"/>
+          <secondPoint x="14.6" y="4.6"/>
+          <color hex="333333"/>
+          <borderColor hex="ff00ff"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.connectivity.SolderPad>
+          <name>Pad55</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.5" y="4.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad56</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.4" y="4.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad57</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.3" y="4.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad58</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.2" y="4.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad59</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.1" y="4.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad60</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.0" y="4.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad61</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.9" y="4.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad62</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.8" y="4.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad63</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.8" y="4.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad64</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="13.9" y="4.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad65</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.0" y="4.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad66</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.1" y="4.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad67</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.2" y="4.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad68</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.3" y="4.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad69</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.4" y="4.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad70</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="14.5" y="4.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+      </list>
+    </entry>
+    <entry>
+      <string>3 Axis Joystick</string>
+      <list>
+        <diylc.shapes.Rectangle>
+          <name>RECT1</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="4.5" y="6.1"/>
+            <point x="6.6" y="8.1"/>
+          </controlPoints>
+          <firstPoint x="4.5" y="6.1"/>
+          <secondPoint x="6.6" y="8.1"/>
+          <color hex="666666"/>
+          <borderColor hex="000000"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.passive.PotentiometerPanel>
+          <name>Joystick B-Z</name>
+          <alpha>127</alpha>
+          <controlPoints>
+            <point x="6.9" y="7.4"/>
+            <point x="6.9" y="7.1"/>
+            <point x="6.9" y="6.8"/>
+          </controlPoints>
+          <orientation>_270</orientation>
+          <taper>LIN</taper>
+          <bodyDiameter value="1.0" unit="in"/>
+          <spacing value="0.3" unit="in"/>
+          <lugDiameter value="0.15" unit="in"/>
+          <bodyColor hex="c0c0c0"/>
+          <borderColor hex="808080"/>
+          <nutColor hex="cbd5db"/>
+          <waferColor hex="cd8500"/>
+          <type>ThroughHole</type>
+          <showShaft>true</showShaft>
+          <view>ShaftUp</view>
+        </diylc.passive.PotentiometerPanel>
+        <diylc.passive.PotentiometerPanel>
+          <name>Joystick B-Y</name>
+          <alpha>127</alpha>
+          <controlPoints>
+            <point x="4.3" y="6.4"/>
+            <point x="4.3" y="6.7"/>
+            <point x="4.3" y="7.0"/>
+          </controlPoints>
+          <orientation>_90</orientation>
+          <taper>LIN</taper>
+          <bodyDiameter value="1.0" unit="in"/>
+          <spacing value="0.3" unit="in"/>
+          <lugDiameter value="0.15" unit="in"/>
+          <bodyColor hex="c0c0c0"/>
+          <borderColor hex="808080"/>
+          <nutColor hex="cbd5db"/>
+          <waferColor hex="cd8500"/>
+          <type>ThroughHole</type>
+          <showShaft>true</showShaft>
+          <view>ShaftUp</view>
+        </diylc.passive.PotentiometerPanel>
+        <diylc.passive.PotentiometerPanel>
+          <name>Joystick B-X</name>
+          <alpha>127</alpha>
+          <controlPoints>
+            <point x="6.0" y="8.4"/>
+            <point x="6.3" y="8.4"/>
+            <point x="6.6" y="8.4"/>
+          </controlPoints>
+          <orientation>DEFAULT</orientation>
+          <taper>LIN</taper>
+          <bodyDiameter value="1.0" unit="in"/>
+          <spacing value="0.3" unit="in"/>
+          <lugDiameter value="0.15" unit="in"/>
+          <bodyColor hex="c0c0c0"/>
+          <borderColor hex="808080"/>
+          <nutColor hex="cbd5db"/>
+          <waferColor hex="cd8500"/>
+          <type>ThroughHole</type>
+          <showShaft>true</showShaft>
+          <view>ShaftUp</view>
+        </diylc.passive.PotentiometerPanel>
+        <diylc.electromechanical.MiniToggleSwitch>
+          <alpha>127</alpha>
+          <controlPoints>
+            <point x="6.5" y="6.3"/>
+            <point x="6.5" y="6.5"/>
+          </controlPoints>
+          <switchType>SPST</switchType>
+          <orientation>VERTICAL</orientation>
+          <spacing value="0.2" unit="in"/>
+          <bodyColor hex="3299cc"/>
+          <borderColor hex="236b8e"/>
+          <name>Joystick Button A</name>
+        </diylc.electromechanical.MiniToggleSwitch>
+        <diylc.misc.Label>
+          <name>L6</name>
+          <point x="4.7" y="5.9"/>
+          <text>Joystick B</text>
+          <font name="Tahoma" size="18" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+      </list>
+    </entry>
+    <entry>
+      <string>7-seg-display</string>
+      <list>
+        <diylc.connectivity.Jumper>
+          <name>J4</name>
+          <alpha>127</alpha>
+          <points>
+            <point x="5.2" y="3.4"/>
+            <point x="5.4" y="3.4"/>
+            <point x="5.3" y="3.4"/>
+          </points>
+          <bodyColor hex="ffffff"/>
+          <borderColor hex="000000"/>
+          <labelColor hex="000000"/>
+          <leadColor hex="ff0000"/>
+          <display>NAME</display>
+          <flipStanding>false</flipStanding>
+          <labelOriantation>Directional</labelOriantation>
+          <moveLabel>false</moveLabel>
+          <hideShortLeads>false</hideShortLeads>
+          <style>SOLID</style>
+        </diylc.connectivity.Jumper>
+        <diylc.connectivity.Jumper>
+          <name>J5</name>
+          <alpha>127</alpha>
+          <points>
+            <point x="5.2" y="3.4"/>
+            <point x="5.2" y="3.6"/>
+            <point x="5.2" y="3.5"/>
+          </points>
+          <bodyColor hex="ffffff"/>
+          <borderColor hex="000000"/>
+          <labelColor hex="000000"/>
+          <leadColor hex="ff0000"/>
+          <display>NAME</display>
+          <flipStanding>false</flipStanding>
+          <labelOriantation>Directional</labelOriantation>
+          <moveLabel>false</moveLabel>
+          <hideShortLeads>false</hideShortLeads>
+          <style>SOLID</style>
+        </diylc.connectivity.Jumper>
+        <diylc.connectivity.Jumper>
+          <name>J6</name>
+          <alpha>127</alpha>
+          <points>
+            <point x="5.2" y="3.6"/>
+            <point x="5.4" y="3.6"/>
+            <point x="5.3" y="3.6"/>
+          </points>
+          <bodyColor hex="ffffff"/>
+          <borderColor hex="000000"/>
+          <labelColor hex="000000"/>
+          <leadColor hex="ff0000"/>
+          <display>NAME</display>
+          <flipStanding>false</flipStanding>
+          <labelOriantation>Directional</labelOriantation>
+          <moveLabel>false</moveLabel>
+          <hideShortLeads>false</hideShortLeads>
+          <style>SOLID</style>
+        </diylc.connectivity.Jumper>
+        <diylc.connectivity.Jumper>
+          <name>J7</name>
+          <alpha>127</alpha>
+          <points>
+            <point x="5.4" y="3.6"/>
+            <point x="5.4" y="3.4"/>
+            <point x="5.4" y="3.5"/>
+          </points>
+          <bodyColor hex="ffffff"/>
+          <borderColor hex="000000"/>
+          <labelColor hex="000000"/>
+          <leadColor hex="ff0000"/>
+          <display>NAME</display>
+          <flipStanding>false</flipStanding>
+          <labelOriantation>Directional</labelOriantation>
+          <moveLabel>false</moveLabel>
+          <hideShortLeads>false</hideShortLeads>
+          <style>SOLID</style>
+        </diylc.connectivity.Jumper>
+        <diylc.connectivity.Jumper>
+          <name>J8</name>
+          <alpha>127</alpha>
+          <points>
+            <point x="5.2" y="3.6"/>
+            <point x="5.2" y="3.8"/>
+            <point x="5.2" y="3.7"/>
+          </points>
+          <bodyColor hex="ffffff"/>
+          <borderColor hex="000000"/>
+          <labelColor hex="000000"/>
+          <leadColor hex="ff0000"/>
+          <display>NAME</display>
+          <flipStanding>false</flipStanding>
+          <labelOriantation>Directional</labelOriantation>
+          <moveLabel>false</moveLabel>
+          <hideShortLeads>false</hideShortLeads>
+          <style>SOLID</style>
+        </diylc.connectivity.Jumper>
+        <diylc.connectivity.Jumper>
+          <name>J9</name>
+          <alpha>127</alpha>
+          <points>
+            <point x="5.2" y="3.8"/>
+            <point x="5.4" y="3.8"/>
+            <point x="5.3" y="3.8"/>
+          </points>
+          <bodyColor hex="ffffff"/>
+          <borderColor hex="000000"/>
+          <labelColor hex="000000"/>
+          <leadColor hex="ff0000"/>
+          <display>NAME</display>
+          <flipStanding>false</flipStanding>
+          <labelOriantation>Directional</labelOriantation>
+          <moveLabel>false</moveLabel>
+          <hideShortLeads>false</hideShortLeads>
+          <style>SOLID</style>
+        </diylc.connectivity.Jumper>
+        <diylc.connectivity.Jumper>
+          <name>J10</name>
+          <alpha>127</alpha>
+          <points>
+            <point x="5.4" y="3.8"/>
+            <point x="5.4" y="3.6"/>
+            <point x="5.4" y="3.7"/>
+          </points>
+          <bodyColor hex="ffffff"/>
+          <borderColor hex="000000"/>
+          <labelColor hex="000000"/>
+          <leadColor hex="ff0000"/>
+          <display>NAME</display>
+          <flipStanding>false</flipStanding>
+          <labelOriantation>Directional</labelOriantation>
+          <moveLabel>false</moveLabel>
+          <hideShortLeads>false</hideShortLeads>
+          <style>SOLID</style>
+        </diylc.connectivity.Jumper>
+        <diylc.shapes.Rectangle>
+          <name>7-seg</name>
+          <alpha>104</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="5.0" y="3.2"/>
+            <point x="5.6" y="4.0"/>
+          </controlPoints>
+          <firstPoint x="5.0" y="3.2"/>
+          <secondPoint x="5.6" y="4.0"/>
+          <color hex="cccccc"/>
+          <borderColor hex="ffffff"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.connectivity.Dot>
+          <name>Dot1</name>
+          <size value="1.5" unit="mm"/>
+          <color hex="ffcc00"/>
+          <point x="5.3" y="3.3"/>
+        </diylc.connectivity.Dot>
+        <diylc.connectivity.Dot>
+          <name>Dot2</name>
+          <size value="1.5" unit="mm"/>
+          <color hex="ffcc00"/>
+          <point x="5.4" y="3.3"/>
+        </diylc.connectivity.Dot>
+        <diylc.connectivity.Dot>
+          <name>Dot3</name>
+          <size value="1.5" unit="mm"/>
+          <color hex="ffcc00"/>
+          <point x="5.5" y="3.3"/>
+        </diylc.connectivity.Dot>
+        <diylc.connectivity.Dot>
+          <name>Dot4</name>
+          <size value="1.5" unit="mm"/>
+          <color hex="ffcc00"/>
+          <point x="5.2" y="3.3"/>
+        </diylc.connectivity.Dot>
+        <diylc.connectivity.Dot>
+          <name>Dot5</name>
+          <size value="1.5" unit="mm"/>
+          <color hex="ffcc00"/>
+          <point x="5.1" y="3.3"/>
+        </diylc.connectivity.Dot>
+        <diylc.connectivity.Dot>
+          <name>Dot6</name>
+          <size value="1.5" unit="mm"/>
+          <color hex="ffcc00"/>
+          <point x="5.1" y="3.9"/>
+        </diylc.connectivity.Dot>
+        <diylc.connectivity.Dot>
+          <name>Dot7</name>
+          <size value="1.5" unit="mm"/>
+          <color hex="ffcc00"/>
+          <point x="5.2" y="3.9"/>
+        </diylc.connectivity.Dot>
+        <diylc.connectivity.Dot>
+          <name>Dot8</name>
+          <size value="1.5" unit="mm"/>
+          <color hex="ffcc00"/>
+          <point x="5.3" y="3.9"/>
+        </diylc.connectivity.Dot>
+        <diylc.connectivity.Dot>
+          <name>Dot9</name>
+          <size value="1.5" unit="mm"/>
+          <color hex="ffcc00"/>
+          <point x="5.4" y="3.9"/>
+        </diylc.connectivity.Dot>
+        <diylc.connectivity.Dot>
+          <name>Dot10</name>
+          <size value="1.5" unit="mm"/>
+          <color hex="ffcc00"/>
+          <point x="5.5" y="3.9"/>
+        </diylc.connectivity.Dot>
+        <diylc.connectivity.Dot>
+          <name>Dot11</name>
+          <size value="1.0" unit="mm"/>
+          <color hex="ff3333"/>
+          <point x="5.5" y="3.8"/>
+        </diylc.connectivity.Dot>
+        <diylc.misc.Label>
+          <name>LAB9</name>
+          <point x="5.5" y="3.4"/>
+          <text>B</text>
+          <font name="Dialog.plain" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>CENTER</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>LAB10</name>
+          <point x="5.4" y="3.4"/>
+          <text>A</text>
+          <font name="Dialog.plain" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>CENTER</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>LAB11</name>
+          <point x="5.3" y="3.4"/>
+          <text>gnd</text>
+          <font name="Dialog.plain" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>CENTER</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_270</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>LAB12</name>
+          <point x="5.2" y="3.4"/>
+          <text>F</text>
+          <font name="Dialog.plain" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>CENTER</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>LAB13</name>
+          <point x="5.1" y="3.4"/>
+          <text>G</text>
+          <font name="Dialog.plain" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>CENTER</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>LAB14</name>
+          <point x="5.4" y="3.8"/>
+          <text>C</text>
+          <font name="Dialog.plain" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>CENTER</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>LAB15</name>
+          <point x="5.2" y="3.8"/>
+          <text>D</text>
+          <font name="Dialog.plain" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>CENTER</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>LAB16</name>
+          <point x="5.1" y="3.8"/>
+          <text>E</text>
+          <font name="Dialog.plain" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>CENTER</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>LAB17</name>
+          <point x="5.3" y="3.8"/>
+          <text>gnd</text>
+          <font name="Dialog.plain" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>CENTER</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_270</orientation>
+        </diylc.misc.Label>
+      </list>
+    </entry>
+    <entry>
+      <string>Momentary Footswitch</string>
+      <list>
+        <diylc.shapes.Ellipse>
+          <name>ELL1</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="2.5" y="5.9"/>
+            <point x="3.1" y="6.5"/>
+          </controlPoints>
+          <firstPoint x="2.5" y="5.9"/>
+          <secondPoint x="3.1" y="6.5"/>
+          <color hex="333333"/>
+          <borderColor hex="000000"/>
+          <borderThickness value="0.2" unit="mm"/>
+        </diylc.shapes.Ellipse>
+        <diylc.shapes.Rectangle>
+          <name>RECT7</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="1.9" y="5.9"/>
+            <point x="2.8" y="6.5"/>
+          </controlPoints>
+          <firstPoint x="1.9" y="5.9"/>
+          <secondPoint x="2.8" y="6.5"/>
+          <color hex="333333"/>
+          <borderColor hex="000000"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.electromechanical.MiniToggleSwitch>
+          <alpha>127</alpha>
+          <controlPoints>
+            <point x="1.9" y="6.1"/>
+            <point x="1.9" y="6.3"/>
+          </controlPoints>
+          <switchType>SPST</switchType>
+          <orientation>VERTICAL</orientation>
+          <spacing value="0.2" unit="in"/>
+          <bodyColor hex="3299cc"/>
+          <borderColor hex="236b8e"/>
+          <name>Joystick Button A</name>
+        </diylc.electromechanical.MiniToggleSwitch>
+        <diylc.misc.Label>
+          <name>L6</name>
+          <point x="2.4" y="6.6"/>
+          <text>Stage</text>
+          <font name="Tahoma" size="18" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>CENTER</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+      </list>
+    </entry>
+    <entry>
+      <string>SD Card SPI</string>
+      <list>
+        <diylc.shapes.Rectangle>
+          <name>RECT23</name>
+          <alpha>114</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="18.1" y="10.6"/>
+            <point x="19.0" y="11.9"/>
+          </controlPoints>
+          <firstPoint x="18.1" y="10.6"/>
+          <secondPoint x="19.0" y="11.9"/>
+          <color hex="0099ff"/>
+          <borderColor hex="cc00ff"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.misc.Label>
+          <name>L254</name>
+          <point x="18.2" y="12.0"/>
+          <text>SD Card Board - SPI Data</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L255</name>
+          <point x="18.3" y="10.8"/>
+          <text>CS</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L256</name>
+          <point x="18.4" y="10.8"/>
+          <text>SCK</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L257</name>
+          <point x="18.5" y="10.8"/>
+          <text>MOSI</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L258</name>
+          <point x="18.6" y="10.8"/>
+          <text>MISO</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L259</name>
+          <point x="18.7" y="10.8"/>
+          <text>Vcc</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L260</name>
+          <point x="18.8" y="10.8"/>
+          <text>GND</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>_90</orientation>
+        </diylc.misc.Label>
+        <diylc.connectivity.SolderPad>
+          <name>Pad87</name>
+          <size value="0.09" unit="in"/>
+          <color hex="000000"/>
+          <point x="18.3" y="10.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad88</name>
+          <size value="0.09" unit="in"/>
+          <color hex="000000"/>
+          <point x="18.4" y="10.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad89</name>
+          <size value="0.09" unit="in"/>
+          <color hex="000000"/>
+          <point x="18.5" y="10.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad90</name>
+          <size value="0.09" unit="in"/>
+          <color hex="000000"/>
+          <point x="18.6" y="10.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad91</name>
+          <size value="0.09" unit="in"/>
+          <color hex="000000"/>
+          <point x="18.7" y="10.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad92</name>
+          <size value="0.09" unit="in"/>
+          <color hex="000000"/>
+          <point x="18.8" y="10.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.shapes.Rectangle>
+          <name>RECT24</name>
+          <alpha>114</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="18.5" y="11.4"/>
+            <point x="18.9" y="11.9"/>
+          </controlPoints>
+          <firstPoint x="18.5" y="11.4"/>
+          <secondPoint x="18.9" y="11.9"/>
+          <color hex="666666"/>
+          <borderColor hex="cc00ff"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+      </list>
+    </entry>
+    <entry>
+      <string>10 Way Header</string>
+      <list>
+        <diylc.shapes.Rectangle>
+          <name>RECT18</name>
+          <alpha>127</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="15.6" y="0.6"/>
+            <point x="15.8" y="1.7"/>
+          </controlPoints>
+          <firstPoint x="15.6" y="0.6"/>
+          <secondPoint x="15.8" y="1.7"/>
+          <color hex="333333"/>
+          <borderColor hex="ff00ff"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="0.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.connectivity.SolderPad>
+          <name>Pad41</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="0.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad42</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="0.8"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad43</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="0.9"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad44</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="1.0"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad45</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="1.1"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad46</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="1.2"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad47</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="1.3"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad48</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="1.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad49</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="1.5"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad50</name>
+          <size value="0.08" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="15.7" y="1.6"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+      </list>
+    </entry>
+    <entry>
+      <string>BC547</string>
+      <set>
+        <diylc.semiconductors.TransistorTO92>
+          <name>Q2</name>
+          <alpha>103</alpha>
+          <value>BC547</value>
+          <orientation>DEFAULT</orientation>
+          <controlPoints>
+            <point x="5.7" y="4.1"/>
+            <point x="5.7" y="4.215"/>
+            <point x="5.7" y="4.33"/>
+          </controlPoints>
+          <bodyColor hex="808080"/>
+          <borderColor hex="595959"/>
+          <labelColor hex="000000"/>
+          <display>VALUE</display>
+          <folded>false</folded>
+          <pinSpacing value="3.0" unit="mm"/>
+        </diylc.semiconductors.TransistorTO92>
+        <diylc.misc.Label>
+          <name>L4</name>
+          <point x="5.9" y="4.2"/>
+          <text>B</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L4</name>
+          <point x="5.8" y="4.3"/>
+          <text>E</text>
+          <font name="Tahoma" size="14" style="0"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+        <diylc.misc.Label>
+          <name>L4</name>
+          <point x="5.8" y="4.1"/>
+          <text>C</text>
+          <font reference="../../../../entry[3]/set/diylc.misc.Label[3]/font"/>
+          <color hex="000000"/>
+          <horizontalAlignment>LEFT</horizontalAlignment>
+          <verticalAlignment>CENTER</verticalAlignment>
+          <orientation>DEFAULT</orientation>
+        </diylc.misc.Label>
+      </set>
+    </entry>
+    <entry>
+      <string>jacks</string>
+      <set>
+        <diylc.electromechanical.CliffJack1__4>
+          <name>J2</name>
+          <alpha>127</alpha>
+          <controlPoints>
+            <point x="7.7" y="5.2"/>
+            <point x="7.7" y="5.8"/>
+            <point x="8.3" y="5.2"/>
+            <point x="8.3" y="5.8"/>
+          </controlPoints>
+          <type>MONO</type>
+          <orientation>DEFAULT</orientation>
+        </diylc.electromechanical.CliffJack1__4>
+        <diylc.electromechanical.CliffJack1__4>
+          <name>J1</name>
+          <alpha>127</alpha>
+          <controlPoints>
+            <point x="7.7" y="3.6"/>
+            <point x="7.7" y="4.2"/>
+            <point x="8.3" y="3.6"/>
+            <point x="8.3" y="4.2"/>
+          </controlPoints>
+          <type>MONO</type>
+          <orientation>DEFAULT</orientation>
+        </diylc.electromechanical.CliffJack1__4>
+        <diylc.connectivity.HookupWire>
+          <name>W1</name>
+          <alpha>127</alpha>
+          <controlPoints>
+            <point x="8.3" y="4.2"/>
+            <point x="8.6" y="4.5"/>
+            <point x="8.0" y="4.9"/>
+            <point x="8.3" y="5.2"/>
+          </controlPoints>
+          <color hex="00ff00"/>
+          <pointCount>FOUR</pointCount>
+          <lastUpdatePointIndex>0</lastUpdatePointIndex>
+          <gauge>_22</gauge>
+          <striped>false</striped>
+        </diylc.connectivity.HookupWire>
+      </set>
+    </entry>
+    <entry>
+      <string>TO-92 w/ 2 Leads</string>
+      <list>
+        <diylc.connectivity.Jumper>
+          <name>J1</name>
+          <alpha>127</alpha>
+          <points>
+            <point x="2.9" y="3.6"/>
+            <point x="2.9" y="3.7"/>
+            <point x="6.6" y="1.25"/>
+          </points>
+          <bodyColor hex="ffffff"/>
+          <borderColor hex="000000"/>
+          <labelColor hex="000000"/>
+          <leadColor hex="759daf"/>
+          <display>NAME</display>
+          <flipStanding>false</flipStanding>
+          <labelOriantation>Directional</labelOriantation>
+          <moveLabel>false</moveLabel>
+          <style>SOLID</style>
+        </diylc.connectivity.Jumper>
+        <diylc.connectivity.Jumper>
+          <name>J2</name>
+          <alpha>127</alpha>
+          <points>
+            <point x="2.9" y="3.9"/>
+            <point x="2.9" y="3.8"/>
+            <point x="-0.885" y="6.295"/>
+          </points>
+          <bodyColor hex="ffffff"/>
+          <borderColor hex="000000"/>
+          <labelColor hex="000000"/>
+          <leadColor hex="759daf"/>
+          <display>NAME</display>
+          <flipStanding>false</flipStanding>
+          <labelOriantation>Directional</labelOriantation>
+          <moveLabel>false</moveLabel>
+          <style>SOLID</style>
+        </diylc.connectivity.Jumper>
+        <diylc.semiconductors.TransistorTO92>
+          <name>Q1</name>
+          <alpha>100</alpha>
+          <value></value>
+          <orientation>DEFAULT</orientation>
+          <controlPoints>
+            <point x="2.9" y="3.7"/>
+            <point x="2.9" y="3.75"/>
+            <point x="2.9" y="3.8"/>
+          </controlPoints>
+          <bodyColor hex="808080"/>
+          <borderColor hex="595959"/>
+          <labelColor hex="000000"/>
+          <display>NAME</display>
+          <folded>false</folded>
+          <pinSpacing value="0.05" unit="in"/>
+        </diylc.semiconductors.TransistorTO92>
+      </list>
+    </entry>
+    <entry>
+      <string>2-pin-screw-terminal</string>
+      <list>
+        <diylc.connectivity.SolderPad>
+          <name>Pad1</name>
+          <size value="0.09" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="4.1" y="2.7"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad2</name>
+          <size value="0.09" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="4.3" y="2.7"/>
+          <type>ROUND</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.shapes.Rectangle>
+          <name>5VIN</name>
+          <alpha>60</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="4.0" y="2.5"/>
+            <point x="4.4" y="2.9"/>
+          </controlPoints>
+          <firstPoint x="4.0" y="2.5"/>
+          <secondPoint x="4.4" y="2.9"/>
+          <color hex="999999"/>
+          <borderColor hex="000000"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="1.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+      </list>
+    </entry>
+    <entry>
+      <string>4-way-dipswitch</string>
+      <list>
+        <diylc.connectivity.SolderPad>
+          <name>Pad5</name>
+          <size value="0.09" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="5.2" y="7.4"/>
+          <type>SQUARE</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad7</name>
+          <size value="0.09" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="5.3" y="7.4"/>
+          <type>ROUND</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad8</name>
+          <size value="0.09" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="5.4" y="7.4"/>
+          <type>ROUND</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad10</name>
+          <size value="0.09" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="5.5" y="7.4"/>
+          <type>ROUND</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad15</name>
+          <size value="0.09" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="5.5" y="7.1"/>
+          <type>ROUND</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad16</name>
+          <size value="0.09" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="5.4" y="7.1"/>
+          <type>ROUND</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad17</name>
+          <size value="0.09" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="5.3" y="7.1"/>
+          <type>ROUND</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.connectivity.SolderPad>
+          <name>Pad18</name>
+          <size value="0.09" unit="in"/>
+          <color hex="ffcc00"/>
+          <point x="5.2" y="7.1"/>
+          <type>ROUND</type>
+          <holeSize value="0.8" unit="mm"/>
+          <layer>_1</layer>
+        </diylc.connectivity.SolderPad>
+        <diylc.shapes.Rectangle>
+          <name>RECT2</name>
+          <alpha>60</alpha>
+          <value></value>
+          <controlPoints>
+            <point x="5.1" y="7.0"/>
+            <point x="5.6" y="7.5"/>
+          </controlPoints>
+          <firstPoint x="5.1" y="7.0"/>
+          <secondPoint x="5.6" y="7.5"/>
+          <color hex="999999"/>
+          <borderColor hex="000000"/>
+          <borderThickness value="0.2" unit="mm"/>
+          <edgeRadius value="1.0" unit="mm"/>
+        </diylc.shapes.Rectangle>
+        <diylc.connectivity.Line>
+          <name>LN1</name>
+          <alpha>127</alpha>
+          <points>
+            <point x="5.2" y="7.5"/>
+            <point x="5.2" y="7.6"/>
+            <point x="0.0" y="0.0"/>
+          </points>
+          <bodyColor hex="ffffff"/>
+          <borderColor hex="000000"/>
+          <labelColor hex="000000"/>
+          <leadColor hex="cccccc"/>
+          <display>NAME</display>
+          <flipStanding>false</flipStanding>
+          <labelOriantation>Directional</labelOriantation>
+          <moveLabel>false</moveLabel>
+          <hideShortLeads>false</hideShortLeads>
+          <color hex="ffffff"/>
+          <style>SOLID</style>
+          <thickness value="10.0" unit="px"/>
+          <arrowSize value="0.0" unit="px"/>
+          <arrowTx serialization="custom">
+            <java.awt.geom.AffineTransform>
+              <default>
+                <m00>1.0</m00>
+                <m01>0.0</m01>
+                <m02>0.0</m02>
+                <m10>0.0</m10>
+                <m11>1.0</m11>
+                <m12>0.0</m12>
+              </default>
+            </java.awt.geom.AffineTransform>
+          </arrowTx>
+          <arrowStart>false</arrowStart>
+          <arrowEnd>false</arrowEnd>
+        </diylc.connectivity.Line>
+        <diylc.connectivity.Line>
+          <name>LN2</name>
+          <alpha>127</alpha>
+          <points>
+            <point x="5.3" y="7.5"/>
+            <point x="5.3" y="7.6"/>
+            <point x="0.0" y="0.0"/>
+          </points>
+          <bodyColor hex="ffffff"/>
+          <borderColor hex="000000"/>
+          <labelColor hex="000000"/>
+          <leadColor hex="cccccc"/>
+          <display>NAME</display>
+          <flipStanding>false</flipStanding>
+          <labelOriantation>Directional</labelOriantation>
+          <moveLabel>false</moveLabel>
+          <hideShortLeads>false</hideShortLeads>
+          <color hex="ffffff"/>
+          <style>SOLID</style>
+          <thickness value="10.0" unit="px"/>
+          <arrowSize value="0.0" unit="px"/>
+          <arrowTx serialization="custom">
+            <java.awt.geom.AffineTransform>
+              <default>
+                <m00>1.0</m00>
+                <m01>0.0</m01>
+                <m02>0.0</m02>
+                <m10>0.0</m10>
+                <m11>1.0</m11>
+                <m12>0.0</m12>
+              </default>
+            </java.awt.geom.AffineTransform>
+          </arrowTx>
+          <arrowStart>false</arrowStart>
+          <arrowEnd>false</arrowEnd>
+        </diylc.connectivity.Line>
+        <diylc.connectivity.Line>
+          <name>LN3</name>
+          <alpha>127</alpha>
+          <points>
+            <point x="5.4" y="7.5"/>
+            <point x="5.4" y="7.6"/>
+            <point x="0.0" y="0.0"/>
+          </points>
+          <bodyColor hex="ffffff"/>
+          <borderColor hex="000000"/>
+          <labelColor hex="000000"/>
+          <leadColor hex="cccccc"/>
+          <display>NAME</display>
+          <flipStanding>false</flipStanding>
+          <labelOriantation>Directional</labelOriantation>
+          <moveLabel>false</moveLabel>
+          <hideShortLeads>false</hideShortLeads>
+          <color hex="ffffff"/>
+          <style>SOLID</style>
+          <thickness value="10.0" unit="px"/>
+          <arrowSize value="0.0" unit="px"/>
+          <arrowTx serialization="custom">
+            <java.awt.geom.AffineTransform>
+              <default>
+                <m00>1.0</m00>
+                <m01>0.0</m01>
+                <m02>0.0</m02>
+                <m10>0.0</m10>
+                <m11>1.0</m11>
+                <m12>0.0</m12>
+              </default>
+            </java.awt.geom.AffineTransform>
+          </arrowTx>
+          <arrowStart>false</arrowStart>
+          <arrowEnd>false</arrowEnd>
+        </diylc.connectivity.Line>
+        <diylc.connectivity.Line>
+          <name>LN4</name>
+          <alpha>127</alpha>
+          <points>
+            <point x="5.5" y="7.5"/>
+            <point x="5.5" y="7.6"/>
+            <point x="0.0" y="0.0"/>
+          </points>
+          <bodyColor hex="ffffff"/>
+          <borderColor hex="000000"/>
+          <labelColor hex="000000"/>
+          <leadColor hex="cccccc"/>
+          <display>NAME</display>
+          <flipStanding>false</flipStanding>
+          <labelOriantation>Directional</labelOriantation>
+          <moveLabel>false</moveLabel>
+          <hideShortLeads>false</hideShortLeads>
+          <color hex="ffffff"/>
+          <style>SOLID</style>
+          <thickness value="10.0" unit="px"/>
+          <arrowSize value="0.0" unit="px"/>
+          <arrowTx serialization="custom">
+            <java.awt.geom.AffineTransform>
+              <default>
+                <m00>1.0</m00>
+                <m01>0.0</m01>
+                <m02>0.0</m02>
+                <m10>0.0</m10>
+                <m11>1.0</m11>
+                <m12>0.0</m12>
+              </default>
+            </java.awt.geom.AffineTransform>
+          </arrowTx>
+          <arrowStart>false</arrowStart>
+          <arrowEnd>false</arrowEnd>
+        </diylc.connectivity.Line>
+      </list>
+    </entry>
+  </block>
+  <owner>dech3</owner>
+</org.diylc.common.BuildingBlockPackage>

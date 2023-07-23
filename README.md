@@ -1,5 +1,5 @@
 # Digital Logic Circuits
-_This project uses labview to validate the design of a digital logic circuit, before building and testing the circuit in real life.
+_This project uses labview to validate the design of a digital logic circuit, before building and testing the circuit in real life._
 
 
 ### Sequential Logic - Decade Down Counter
@@ -36,4 +36,7 @@ _These are almost the same as the labview implementation, it shows how well LabV
 
 #### Bread & Proto Board Layouts
 ##### 4-Bit to 7-Segment Display
-![Uploading image.png…]()
+_Note this board is missing the majority of the logic to logic connnections, as these will need to be filled in with flex links, and this would be far to messy to show._
+_Once base board is finished, schematic should be followed to fill in the missing logic connections pin to pin_
+![image](https://github.com/ImogenWren/digital-logic-circuits/assets/97303986/0a9edf3e-4d2e-4603-b88d-54bd4a77546f)
+

@@ -38,5 +38,6 @@ _These are almost the same as the labview implementation, it shows how well LabV
 ##### 4-Bit to 7-Segment Display
 _Note this board is missing the majority of the logic to logic connnections, as these will need to be filled in with flex links, and this would be far to messy to show._
 _Once base board is finished, schematic should be followed to fill in the missing logic connections pin to pin_
+_The left hand side of the board has entire traces for A, B, C and D, as well as the not of each of these to make it very easy to connect the right trace in the order required, this layout would probably be fairly adaptable for different logic as long as the total number of each gate doesnt change too much, only the outputs of the final 7 OR gates are wired._
 ![image](https://github.com/ImogenWren/digital-logic-circuits/assets/97303986/0a9edf3e-4d2e-4603-b88d-54bd4a77546f)
 

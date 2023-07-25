@@ -2931,10 +2931,10 @@
     (property "Datasheet" "" (at 323.85 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ec7e034b-f8b1-46de-a3f8-58bd21402850))
-    (pin "1" (uuid ec7e034b-f8b1-46de-a3f8-58bd21402850))
-    (pin "2" (uuid 8d65f988-08bd-4b3f-9af6-cd61ace1e698))
-    (pin "2" (uuid 8d65f988-08bd-4b3f-9af6-cd61ace1e698))
+    (pin "1" (uuid ec7e034b-f8b1-46de-a3f8-58bd21402851))
+    (pin "1" (uuid ec7e034b-f8b1-46de-a3f8-58bd21402851))
+    (pin "2" (uuid 8d65f988-08bd-4b3f-9af6-cd61ace1e699))
+    (pin "2" (uuid 8d65f988-08bd-4b3f-9af6-cd61ace1e699))
     (instances
       (project "synchronus-4-bit-down-counter"
         (path "/e64d16c4-cbfb-4b73-a7ff-c50bb64351f4"
@@ -3099,10 +3099,10 @@
     (property "Datasheet" "" (at 238.76 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 58c492eb-fcc1-40be-960f-0d9fc0be9ae2))
-    (pin "1" (uuid 58c492eb-fcc1-40be-960f-0d9fc0be9ae2))
-    (pin "2" (uuid dc7b2062-fbb3-4ecc-becd-8a42490a44f5))
-    (pin "2" (uuid dc7b2062-fbb3-4ecc-becd-8a42490a44f5))
+    (pin "1" (uuid 58c492eb-fcc1-40be-960f-0d9fc0be9ae3))
+    (pin "1" (uuid 58c492eb-fcc1-40be-960f-0d9fc0be9ae3))
+    (pin "2" (uuid dc7b2062-fbb3-4ecc-becd-8a42490a44f6))
+    (pin "2" (uuid dc7b2062-fbb3-4ecc-becd-8a42490a44f6))
     (instances
       (project "synchronus-4-bit-down-counter"
         (path "/e64d16c4-cbfb-4b73-a7ff-c50bb64351f4"

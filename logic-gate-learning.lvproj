@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="21008000">
+<Project Type="Project" LVVersion="24008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -25,14 +25,14 @@
 			<Item Name="d-flip-flop.vi" Type="VI" URL="../d-flip-flop.vi"/>
 		</Item>
 		<Item Name="sub-vi" Type="Folder">
-			<Item Name="d-type-latch.vi" Type="VI" URL="../d-type-latch.vi"/>
-			<Item Name="jk-flip-flop.vi" Type="VI" URL="../jk-flip-flop.vi"/>
+			<Item Name="d-type-latch.vi" Type="VI" URL="../sub-vi/d-type-latch.vi"/>
+			<Item Name="jk-flip-flop.vi" Type="VI" URL="../old-sub-vi/jk-flip-flop.vi"/>
 			<Item Name="Latch if True.vi" Type="VI" URL="../../SUB VIs/Logic Functions/Latch if True.vi"/>
-			<Item Name="nand-3-input.vi" Type="VI" URL="../nand-3-input.vi"/>
+			<Item Name="nand-3-input.vi" Type="VI" URL="../sub-vi/nand-3-input.vi"/>
 			<Item Name="Square Clock Pulse subVI.vi" Type="VI" URL="../../SUB VIs/Timing &amp; Triggers/Square Clock Pulse subVI.vi"/>
-			<Item Name="sr-flip-flop-nand.vi" Type="VI" URL="../sr-flip-flop-nand.vi"/>
+			<Item Name="sr-flip-flop-nand.vi" Type="VI" URL="../old-sub-vi/sr-flip-flop-nand.vi"/>
 			<Item Name="Switch if True.vi" Type="VI" URL="../../SUB VIs/Logic Functions/Switch if True.vi"/>
-			<Item Name="t-flip-flop.vi" Type="VI" URL="../t-flip-flop.vi"/>
+			<Item Name="t-flip-flop.vi" Type="VI" URL="../old-sub-vi/t-flip-flop.vi"/>
 		</Item>
 		<Item Name="decade-down-counter.vi" Type="VI" URL="../decade-down-counter.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
